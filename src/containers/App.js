@@ -36,9 +36,9 @@ class App extends Component {
                         <h1 className="f1">RoboFriends</h1>
                         <SearchBox searchChange={this.duringSearch} />
                         <Scroll>
-                            <ErrorBoundry>
+                            {/* <ErrorBoundry> */}
                                 <CardList robots={filterRobots}/>
-                            </ErrorBoundry>
+                            {/* </ErrorBoundry> */}
                             
                         </Scroll>
                     </div>
